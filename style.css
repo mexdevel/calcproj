@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    color: white;
+}
+
+button{
+    margin: 11px;
+    height: 69px;
+    width: 69px;
+    font-size: 2em;
+    background-color: white;
+    color: black;
+    
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+html{
+    background-image: url('back.png');
+}
