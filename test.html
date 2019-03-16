@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Calculator</title>
-        <meta charset="utf-8">
-        <link href="style.css" type="text/css" rel="stylesheet">
-    </head>
-   
-    <body>
-        <p>
-            <h1>Calculator</h1>
-            <header><input disabled= "disabled" value="" type="text"></header>
-            <div class="bNums">
-                <button id='n1'>1</button>
-                <button id='n2'>2</button>
-                <button id='n3'>3</button>
-                <br>
-                <button id='n4'>4</button>
-                <button id='n5'>5</button>
-                <button id='n6'>6</button>
-                <br>
-                <button id='n7'>7</button>
-                <button id='n8'>8</button>
-                <button id='n9'>9</button>
-                <br>
-                <button id='n0'>0</button>
-            </div>
-            <br>
-            <button id="bAdd">+</button>
-            <button id="bSub">-</button>
-            <button id="bMul">x</button>
-            <button id="bDiv">÷</button>
-            <br>
-            <button id='bRes'>=</button>
-        
-        </p>
-    
-        <script src="script.js" type="text/javascript"></script>
-    
-    </body>
-   
+
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|VT323" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <div id="calculator">
+        <h1>le calc</h1>
+        <div id="calc-display">
+            <p id="result"></p>
+            <ul>
+                <li id="operator"></li>
+                <li id="operand"></li>
+        </div>
+        <div id="calc-btns">
+            <button id="plus" class="operator-btn">+</button>
+            <button id="minus" class="operator-btn">-</button>
+            <button id="times" class="operator-btn">x</button>
+            <button id="divided" class="operator-btn">÷</button>
+            <button id="1" class="number-btn">1</button>
+            <button id="2" class="number-btn">2</button>
+            <button id="3" class="number-btn">3</button>
+            <button id="4" class="number-btn">4</button>
+            <button id="5" class="number-btn">5</button>
+            <button id="6" class="number-btn">6</button>
+            <button id="7" class="number-btn">7</button>
+            <button id="8" class="number-btn">8</button>
+            <button id="9" class="number-btn">9</button>
+            <button id="period" class="number-btn">.</button>
+            <button id="0" class="number-btn">0</button>
+            <button id="clear">AC</button>
+            <button id="equals">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
 </html>
